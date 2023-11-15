@@ -16,7 +16,9 @@ public class RandomRobot extends RobotG
     {
         super(nameRobot,dir,x,y);
     }
-
+    /**
+     * Ce projet n'est pas très très très bon, a revoir 
+     */
     public void avancer()  {
         Random random = new Random();
          int newDirection = random.nextInt(4); // Donne une direction alÃ©atoire
